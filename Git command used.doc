@@ -1,0 +1,162 @@
+
+MZA_SHAWN_DELL_XPS@DESKTOP-8GOJMPK MINGW64 ~/Desktop/BasicJS/Git_App (master)
+$ git init
+Initialized empty Git repository in C:/Users/mzaam/Desktop/BasicJS/Git_App/.git/
+
+MZA_SHAWN_DELL_XPS@DESKTOP-8GOJMPK MINGW64 ~/Desktop/BasicJS/Git_App (master)
+$ git config --global user.name "mzashawn"
+warning: user.name has multiple values
+error: cannot overwrite multiple values with a single value
+       Use a regexp, --add or --replace-all to change user.name.
+
+MZA_SHAWN_DELL_XPS@DESKTOP-8GOJMPK MINGW64 ~/Desktop/BasicJS/Git_App (master)
+$ git config --global user.name "mza shawn"
+warning: user.name has multiple values
+error: cannot overwrite multiple values with a single value
+       Use a regexp, --add or --replace-all to change user.name.
+
+MZA_SHAWN_DELL_XPS@DESKTOP-8GOJMPK MINGW64 ~/Desktop/BasicJS/Git_App (master)
+$ git config --global user.name 'mzashawn'
+warning: user.name has multiple values
+error: cannot overwrite multiple values with a single value
+       Use a regexp, --add or --replace-all to change user.name.
+
+MZA_SHAWN_DELL_XPS@DESKTOP-8GOJMPK MINGW64 ~/Desktop/BasicJS/Git_App (master)
+$ git config --global user.email 'mzaamishawn@gmail.com'
+
+MZA_SHAWN_DELL_XPS@DESKTOP-8GOJMPK MINGW64 ~/Desktop/BasicJS/Git_App (master)
+$ git config --global user.name 'mzashawn'
+warning: user.name has multiple values
+error: cannot overwrite multiple values with a single value
+       Use a regexp, --add or --replace-all to change user.name.
+
+MZA_SHAWN_DELL_XPS@DESKTOP-8GOJMPK MINGW64 ~/Desktop/BasicJS/Git_App (master)
+$ git config --global user.email 'mzaamishawn@gmail.com'
+
+MZA_SHAWN_DELL_XPS@DESKTOP-8GOJMPK MINGW64 ~/Desktop/BasicJS/Git_App (master)
+$ git add *
+
+MZA_SHAWN_DELL_XPS@DESKTOP-8GOJMPK MINGW64 ~/Desktop/BasicJS/Git_App (master)
+$ git status
+On branch master
+
+No commits yet
+
+Changes to be committed:
+  (use "git rm --cached <file>..." to unstage)
+        new file:   OwnBoot.html
+
+
+MZA_SHAWN_DELL_XPS@DESKTOP-8GOJMPK MINGW64 ~/Desktop/BasicJS/Git_App (master)
+$ git rm --cached OwnBoot.html
+rm 'OwnBoot.html'
+
+MZA_SHAWN_DELL_XPS@DESKTOP-8GOJMPK MINGW64 ~/Desktop/BasicJS/Git_App (master)
+$ git status
+On branch master
+
+No commits yet
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        OwnBoot.html
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+MZA_SHAWN_DELL_XPS@DESKTOP-8GOJMPK MINGW64 ~/Desktop/BasicJS/Git_App (master)
+$ git add *
+
+MZA_SHAWN_DELL_XPS@DESKTOP-8GOJMPK MINGW64 ~/Desktop/BasicJS/Git_App (master)
+$ git status
+On branch master
+
+No commits yet
+
+Changes to be committed:
+  (use "git rm --cached <file>..." to unstage)
+        new file:   OwnBoot.html
+
+
+MZA_SHAWN_DELL_XPS@DESKTOP-8GOJMPK MINGW64 ~/Desktop/BasicJS/Git_App (master)
+$ git rm --cached *
+rm 'OwnBoot.html'
+
+MZA_SHAWN_DELL_XPS@DESKTOP-8GOJMPK MINGW64 ~/Desktop/BasicJS/Git_App (master)
+$ git status
+On branch master
+
+No commits yet
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        OwnBoot.html
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+MZA_SHAWN_DELL_XPS@DESKTOP-8GOJMPK MINGW64 ~/Desktop/BasicJS/Git_App (master)
+$ git add *
+
+MZA_SHAWN_DELL_XPS@DESKTOP-8GOJMPK MINGW64 ~/Desktop/BasicJS/Git_App (master)
+$ git status
+On branch master
+
+No commits yet
+
+Changes to be committed:
+  (use "git rm --cached <file>..." to unstage)
+        new file:   OwnBoot.html
+
+
+MZA_SHAWN_DELL_XPS@DESKTOP-8GOJMPK MINGW64 ~/Desktop/BasicJS/Git_App (master)
+$ git commit
+[master (root-commit) 4969fb5]  Initial commit
+ 1 file changed, 411 insertions(+)
+ create mode 100644 OwnBoot.html
+
+MZA_SHAWN_DELL_XPS@DESKTOP-8GOJMPK MINGW64 ~/Desktop/BasicJS/Git_App (master)
+$ git status
+On branch master
+nothing to commit, working tree clean
+
+MZA_SHAWN_DELL_XPS@DESKTOP-8GOJMPK MINGW64 ~/Desktop/BasicJS/Git_App (master)
+$ git status
+On branch master
+nothing to commit, working tree clean
+
+MZA_SHAWN_DELL_XPS@DESKTOP-8GOJMPK MINGW64 ~/Desktop/BasicJS/Git_App (master)
+$ git branch testbranch
+
+MZA_SHAWN_DELL_XPS@DESKTOP-8GOJMPK MINGW64 ~/Desktop/BasicJS/Git_App (master)
+$ git status
+On branch master
+nothing to commit, working tree clean
+
+MZA_SHAWN_DELL_XPS@DESKTOP-8GOJMPK MINGW64 ~/Desktop/BasicJS/Git_App (master)
+$ git commit -n "changed"
+error: pathspec 'changed' did not match any file(s) known to git
+
+MZA_SHAWN_DELL_XPS@DESKTOP-8GOJMPK MINGW64 ~/Desktop/BasicJS/Git_App (master)
+$ git commit -m 'changed'
+On branch master
+nothing to commit, working tree clean
+
+MZA_SHAWN_DELL_XPS@DESKTOP-8GOJMPK MINGW64 ~/Desktop/BasicJS/Git_App (master)
+$ git checkout testbranch
+Switched to branch 'testbranch'
+
+MZA_SHAWN_DELL_XPS@DESKTOP-8GOJMPK MINGW64 ~/Desktop/BasicJS/Git_App (testbranch)
+$ git checkout master
+Switched to branch 'master'
+
+MZA_SHAWN_DELL_XPS@DESKTOP-8GOJMPK MINGW64 ~/Desktop/BasicJS/Git_App (master)
+$ git status
+On branch master
+nothing to commit, working tree clean
+
+MZA_SHAWN_DELL_XPS@DESKTOP-8GOJMPK MINGW64 ~/Desktop/BasicJS/Git_App (master)
+$ git commit -m "Completed"
+On branch master
+nothing to commit, working tree clean
+
+MZA_SHAWN_DELL_XPS@DESKTOP-8GOJMPK MINGW64 ~/Desktop/BasicJS/Git_App (master)
+$
